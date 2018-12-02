@@ -40,22 +40,25 @@
 		</p>
 
 		<p>
-			<label>Calle:</label><br>
-			<input type="text" name="calle"/>
+			<label>Direccion:</label><br>
+			<input type="text" name="direccion"/>
 		</p>
 
 		<p>
 			<label>Codigo Postal:</label><br>
-			<input type="text" name="cp" />
+			<input type="text" name="cp" id="cp" />
 		</p>
 
 		<p>
 			<label>Municipio:</label><br>
-			<select name="municipios">
-			    <option value="1">1</option>
-			    <option value="2">2</option>
-			    <option value="3">3</option>
-			    <option value="4">4</option>
+			<select id="municipio" name="municipio" required disabled>
+			    <option>Azkoitia</option>
+			    <option>Azpeitia</option>
+			    <option>Zarautz</option>
+			    <option>Renteria</option>
+			    <option>Zumaia</option>
+			    <option>Zumarraga</option>
+			    <option>Otros</option>
 	  		</select>
 	  	</p>
 			<label>Newsletter:</label>
