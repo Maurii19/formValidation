@@ -2,7 +2,6 @@ $(document).ready(function () {
   $('#formulario').validate({
     rules: {
       nif:{
-        required: true,
         minlength: 8,
         maxlength: 8,
         number: true
@@ -26,7 +25,9 @@ $(document).ready(function () {
         minlength: 9,
         number: true
       },
-
+      direccion:{
+        minlength: 7
+      },
       cp:{
         required: true,
         number: true,
